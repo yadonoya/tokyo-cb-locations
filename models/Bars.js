@@ -1,6 +1,6 @@
 class Bars {
     constructor() {
-        this.db = require('../db/db')
+        this.db = require('../server/db')
     }
 
     async findAllBars() {
