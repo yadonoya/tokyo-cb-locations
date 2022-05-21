@@ -21,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server",
+    "start": "nodemon server/index.js",
     "hack": "PORT=3000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
